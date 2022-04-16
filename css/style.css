@@ -8,8 +8,17 @@ body
 	display: flex;
 	flex-direction: column;
 	background: #1F2937;
-	color: white;
+	color:  #e5e7eb	;
 	padding: 1% 5% 5% 5%;
+}
+
+.footer{
+	background: #1F2937;
+	color:  #e5e7eb	;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .headerTop{
@@ -36,7 +45,11 @@ h1{
 	width: 450px;
 }
 
-ul, .hero p{
+a{
+	text-decoration: none;
+}
+
+a, .hero p{
 	font-size: 18px;
 	color: #e5e7eb;
 }
