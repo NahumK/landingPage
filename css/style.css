@@ -62,3 +62,35 @@ ul, .hero p{
 	color:  #f9faf8;
 	border: none;
 }
+
+.content{
+	display: flex;
+	flex-direction: column;
+}
+.randomInformation{
+	display: flex;
+	flex-direction: column;
+}
+.randomInformation h2{
+	font-size: 36px;
+	color: #1f2937;
+	text-align: center;
+}
+
+.infoPlaceholder{
+	width: 130px;
+	height: 130px;
+	border: 3px solid #3882f6;
+	border-radius:  15px;
+}
+
+.informations{
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+}
+
+.information p{
+	width: 130px;
+	text-align: center;
+}
