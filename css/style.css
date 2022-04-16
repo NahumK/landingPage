@@ -86,6 +86,7 @@ a, .hero p{
 }
 .randomInformation h2{
 	font-size: 36px;
+	font-weight: 900;
 	color: #1f2937;
 	text-align: center;
 }
@@ -106,4 +107,31 @@ a, .hero p{
 .information p{
 	width: 130px;
 	text-align: center;
+}
+
+.quote{
+	background: #e5e7eb;
+	padding: 35px 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+figure{
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+	align-items: flex-end;
+}
+
+ blockquote{
+ 	margin-right: auto;
+ 	font-size: 26px;
+ 	font-style: italic;
+ 	font-weight: 1;
+ 	color: #1f2937;
+}
+
+figcaption{
+	font-weight: bolder;
 }
