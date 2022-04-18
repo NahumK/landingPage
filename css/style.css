@@ -41,6 +41,7 @@ ul{
 
 h1{
 	font-size: 48px;
+	font-weight: bolder;
 	color: #f9faf8;
 	width: 450px;
 }
@@ -107,6 +108,7 @@ a, .hero p{
 .information p{
 	width: 130px;
 	text-align: center;
+	color: dimgrey;
 }
 
 .quote{
@@ -134,4 +136,42 @@ figure{
 
 figcaption{
 	font-weight: bolder;
+}
+
+.action{
+	padding: 40px 50px;
+	margin: 20px 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.actionSection{
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 80px;
+	width: 80%;
+	background: #3882f6;
+	border-radius: 9px;
+}
+
+.actionSection p{
+	color: #e5e7eb;
+}
+
+#actionCall{
+	font-size: 24px;
+	font-weight: bolder;
+	color: white;
+}
+
+.actionSection button{
+	color: white;
+	font-weight: bold;
+	background: #3882f6;
+	border: 2px solid white;
+	border-radius: 8px;
+	height: 40px;
+	width: 120px;
+	align-self: center;
 }
